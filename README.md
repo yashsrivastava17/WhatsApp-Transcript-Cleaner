@@ -25,17 +25,12 @@ Navigate to the repository directory:
 cd whatsapp-transcript-cleaner
 ```
 
-Install the required packages:
-```
-pip install -r requirements.txt
-```
-
 ## Usage
 To use WhatsApp Transcript Cleaner, follow these instructions:
 
 1. Export the WhatsApp chat(s) you wish to clean as text files. Each chat should be saved in its own text file. For instructions on how to export a chat, see this WhatsApp support article.
 
-2. Place all the exported text files in a single directory. Make sure there are no other text files in the directory that you do not want to clean.
+2. Place all the exported text files in a the same directory as the repository. Make sure there are no other text files in the directory that you do not want to clean.
 
 3. Open a terminal window and navigate to the directory where you cloned the repository.
 
