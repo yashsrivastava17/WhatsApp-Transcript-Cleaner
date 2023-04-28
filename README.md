@@ -3,9 +3,10 @@ WhatsApp Transcript Cleaner is a Python program that allows you to clean up What
 
 The program offers three options:
 
-1. Remove both the timestamp and the sender name
-2. Remove only the timestamp
-3. Choose what to do with each individual file (option 1 or option 2)
+1. Bulk Remove both the timestamp and the sender name
+2. Bulk Remove only the timestamp
+3. Modify Individual files in the directory (option 1 or option 2)
+
 With this program, you can quickly and easily clean up multiple WhatsApp chat transcripts at once, saving you time and effort. The cleaned chat files are saved in a new directory called Modified_Files, making it easy to keep them organized.
 
 ## Getting Started
@@ -28,7 +29,7 @@ cd whatsapp-transcript-cleaner
 ## Usage
 To use WhatsApp Transcript Cleaner, follow these instructions:
 
-1. Export the WhatsApp chat(s) you wish to clean as text files. Each chat should be saved in its own text file. For instructions on how to export a chat, see this WhatsApp support article.
+1. Export the WhatsApp chat(s) you wish to clean as text files. Each chat should be saved in its own text file. For instructions on how to export a chat, see this [WhatsApp support article.](https://faq.whatsapp.com/1180414079177245/?cms_platform=android)
 
 2. Place all the exported text files in a the same directory as the repository. Make sure there are no other text files in the directory that you do not want to clean.
 
