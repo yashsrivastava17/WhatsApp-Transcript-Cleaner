@@ -15,7 +15,6 @@ while True:
 
 if choice == 1:
     print("\n")
-    os.mkdir('modified_files')
     output_dir = "modified_files"
     os.makedirs(output_dir, exist_ok=True)
     for file_name in os.listdir():
@@ -36,7 +35,6 @@ if choice == 1:
 
 elif choice == 2:
     print("\n")
-    os.mkdir('modified_files')
     output_dir = "modified_files"
     os.makedirs(output_dir, exist_ok=True)
     for file_name in os.listdir():
@@ -50,7 +48,6 @@ elif choice == 2:
 
 elif choice == 3:
     print("\n")
-    os.mkdir('modified_files')
     output_dir = "modified_files"
     os.makedirs(output_dir, exist_ok=True)
     for file_name in os.listdir():
