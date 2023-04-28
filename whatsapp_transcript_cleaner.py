@@ -1,9 +1,9 @@
 import os
 
 print("\nWhatsapp Chat Transcript Modifier")
-print("1. Remove Timestamp and name of the sender")
-print("2. Remove Timestamp and preserve the name of the sender")
-print("3. Modify all files in the directory")
+print("1. Bulk Remove Timestamp and name of the sender")
+print("2. Bulk Remove Timestamp and preserve the name of the sender")
+print("3. Modify individual files in the directory")
 
 while True:
     choice = input("Enter the Choice: ")
